@@ -1,62 +1,106 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Julie Moquin's Webpage</title>
-    </head>
-    <body style="background-color:lavender">
-    <center>
-        <header>
-            <div class="topnav">
-                <a class="active" href="index.html">About Me</a> |
-                <a href="research_projects.html">Research Projects</a> |
-                <a href="telescope_photos.html">My Photos</a>
-            </div>
-        </header>
-        <h1>About Me!</h1>
-        <h3>Biography</h3>
-        <div class="container" style="display: flex; align-items:center; max-width: 800px">
-            <div class="image" style = "margin-right: 20px">
-                <img src="Moquin_Julie_SED_5235 copy.jpg" width="300" height="300" alt="Your Image">
-              </div>
-            <div class="text" style="flex: 1; margin-left: 20px">
-              <p>My name is Julie Moquin (she/her/hers). I was born in Montreal, QC but grew up in Palm Beach, FL where I went to elementary, middle, and high school. 
-                My undergraduate education is at Rice University where I am getting a BS in Astrophysics and a minor in Mathematics and French Studies. 
-                I am bilingual, with French being my native language. In my free time I like to coach tennis to little kids, embroider, play piano, sing, compose music, read fantasy and sci-fi books, do photography,
-                scuba dive, and hike. I am a big cat fanatic. My favorite hangout spot is the beach, whether it is rain or shine. My current plans are to go to graduate school to 
-                obtain my PhD in the stellar astrophysics field. 
-                </p>
-            </div>
-        </div>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Julie Moquin's Webpage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-        <br>
-        <h3>Achievements</h3>
-        <h4><a href="https://spacegrant.org/programs/john-mather/john-mather-2023/" target="_blank">
-            John Mather Nobel Scholar</a></h4>
-        <h4><a href="https://www.pideltaphi.org/" target="_blank">Pi Delta Phi Member</a></h4>
-        <h4><a href="https://engagement.virginia.edu/clubs/signature-initiatives/jefferson-book-awards" target="_blank">UVA Jefferson Book Award Winner</a></h4>
-        <br>
-        <h3>Coding/Data Analysis Skills</h3>
-        <p>Python</p>
-        <p>SAOImageDS9</p>
-        <p>IRAF</p>
-        <p>Git</p>
-        <p>HTML</p>
-        <p>Mathematica</p>
-        <p>R</p>
-        <p>IDL</p>
-        <br>
-        <h3>Education</h3>
-        <p>William Marsh Rice University -- BS, Astrophysics; Mathematics and French Studies Minor -- Spring 2025 (in progress)</p>
-        <p>The Benjamin School -- Highschool Diploma -- Spring 2021</p>
-        <p>Gulf Stream School -- Spring 2017</p>
-        <br>
-        <h3>Contact Information</h3>
-        <p>Email: jm137@rice.edu or julie.moquin02@gmail.com</p>
-        <p><a href="https://www.linkedin.com/in/julie-moquin-904457187/" target="_blank">LinkedIn</a></p>
-        <p><a href="https://github.com/juliemoqs" target="_blank">GitHub</a></p>
-        <br>
-    </center>
+  <header>
+    <div class="topnav">
+      <a class="active" href="personalwebpage.html">About Me</a> |
+      <a href="research_projects.html">Research Projects</a> |
+      <a href="telescope_photos.html">My Photos</a>
+    </div>
+  </header>
+
+  <h1>About Me!</h1>
+
+  <h3>Biography</h3>
+  <div class="container">
+    <div class="image">
+      <img src="Moquin_Julie_SED_5235 copy.jpg" alt="Your Image">
+    </div>
+    <div class="text">
+      <p>My name is Julie Moquin. I was born in Quebec but grew up in Florida. 
+        I graduated from Rice University with a B.S. in Astrophysics, distinction in research, a Minor in Mathematics, and a Minor in French Studies. 
+        I am bilingual, with French being my native language. In my free time I like to coach/play tennis, embroider, play piano, and hike. 
+        My favorite hangout spot is the beach, whether it is rain or shine. 
+        I am eager to explore stellar populations, variability, and formation as well as exoplanet detection and demographics. 
+        I will be applying for graduate schools in Fall 2025 in pursuit of a PhD.
+      </p>
+    </div>
+  </div>
+
+  <!-- Three-column responsive section -->
+  <div class="sections">
+
+    <div class="section">
+      <h3>Achievements</h3>
+      <h4><a href="https://spacegrant.org/programs/john-mather/john-mather-2023/" target="_blank">
+        John Mather Nobel Scholar</a></h4>
+      <h4><a href="https://www.pideltaphi.org/" target="_blank">Pi Delta Phi Member</a></h4>
+      <h4><a href="https://engagement.virginia.edu/clubs/signature-initiatives/jefferson-book-awards" target="_blank">
+        UVA Jefferson Book Award Winner</a></h4>
+    </div>
+
+    <div class="section">
+      <h3>Coding/Data Analysis Skills</h3>
+      <p>Python</p>
+      <p>IDL</p>
+      <p>HTML</p>
+      <p>Git</p>
+      <p>R</p>
+      <p>IRAF</p>
+      <p>SAOImageDS9</p>
+    </div>
+
+    <div class="section">
+  <h3>Education</h3>
+
+  <div class="school">
+    <strong>William Marsh Rice University</strong><br>
+    B.S. Astrophysics <br>Spring 2025
+  </div>
+
+  <div class="school">
+    <strong>The Benjamin School</strong><br>
+    High School Diploma <br> Spring 2021
+  </div>
+
+  <div class="school">
+    <strong>Gulf Stream School</strong><br>
+    Spring 2017
+  </div>
+</div>
+
+
+
+
+<div class="contact-container">
+<h3>Contact Me!</h3>
+
+  julie.moquin02@gmail.com
+  
+  <div class="contact-icons">
+    <a href="https://www.linkedin.com/in/julie-moquin-904457187/" target="_blank" aria-label="LinkedIn">
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#0A66C2" viewBox="0 0 24 24">
+        <path d="M19 0h-14c-2.762 0-5 2.238-5 5v14c0 2.762 2.238 5 5 5h14c2.762 0 5-2.238 5-5v-14c0-2.762-2.238-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.268c-.966 0-1.75-.786-1.75-1.752s.784-1.752 1.75-1.752 1.75.786 1.75 1.752-.784 1.752-1.75 1.752zm13.5 11.268h-3v-5.604c0-1.337-.026-3.062-1.865-3.062-1.867 0-2.152 1.46-2.152 2.967v5.699h-3v-10h2.881v1.367h.041c.401-.76 1.379-1.562 2.839-1.562 3.036 0 3.598 2 3.598 4.597v5.598z"/>
+      </svg>
+    </a>
+
+    <a href="https://github.com/juliemoqs" target="_blank" aria-label="GitHub">
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000" viewBox="0 0 24 24">
+        <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577v-2.234c-3.338.724-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.834 2.809 1.304 3.495.997.108-.775.418-1.305.762-1.605-2.665-.304-5.466-1.333-5.466-5.932 0-1.31.467-2.381 1.236-3.221-.124-.303-.536-1.523.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.655 1.653.243 2.873.119 3.176.77.84 1.235 1.911 1.235 3.221 0 4.61-2.807 5.625-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .322.216.694.825.576 4.765-1.589 8.2-6.084 8.2-11.386 0-6.627-5.373-12-12-12z"/>
+      </svg>
+    </a>
+
+    <a href="https://science.gsfc.nasa.gov/sci/bio/julie.moquin" target="_blank" class="nasa-text" aria-label="NASA">NASA</a>
+
+  </div>
+</div>
+
 </body>
 </html>
